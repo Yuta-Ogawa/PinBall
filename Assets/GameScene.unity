@@ -1548,7 +1548,6 @@ GameObject:
   - component: {fileID: 1840079685}
   - component: {fileID: 1840079687}
   - component: {fileID: 1840079686}
-  - component: {fileID: 1840079688}
   m_Layer: 5
   m_Name: PointText
   m_TagString: Untagged
@@ -1571,7 +1570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -40, y: -60}
+  m_AnchoredPosition: {x: -60, y: -60}
   m_SizeDelta: {x: 200, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840079686
@@ -1613,17 +1612,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1840079684}
---- !u!114 &1840079688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1840079684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfb753947b910984d92e5d2a1d9f6710, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1850516024
 Prefab:
   m_ObjectHideFlags: 0
@@ -1939,6 +1927,7 @@ GameObject:
   - component: {fileID: 2131229299}
   - component: {fileID: 2131229298}
   - component: {fileID: 2131229303}
+  - component: {fileID: 2131229304}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -2036,5 +2025,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e8b4e300543bf34f989f0e668f00031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2131229304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2131229297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb753947b910984d92e5d2a1d9f6710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
